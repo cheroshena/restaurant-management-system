@@ -1,0 +1,94 @@
+<body class="register-body" background="../../../assets/signbck.jpg">
+    <mat-card class="register-card">
+      <mat-card-header>
+        <mat-card-title class="register-card-title">
+          <u>Register</u>
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <form >
+          <table cellspacing="0" [formGroup]="userForm" class="full-width">
+            <tr>
+              <td>
+                <mat-form-field class="full-width">
+                  <input 
+                  name ="firstname" 
+                  formControlName="firstname" 
+                  matInput placeholder="First Name" 
+                  required
+                  type="text"/>
+                  <mat-icon matSuffix class="email-icon">account_box</mat-icon>
+                 </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="full-width">
+                  <input 
+                  name ="secondname" 
+                  formControlName="secondname"  
+                  matInput placeholder="Last Name" 
+                  required/>
+                  <mat-icon matSuffix class="email-icon">account_box</mat-icon>
+                 </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="full-width">
+                  <input 
+                  name ="email" 
+                  formControlName="email"  
+                  matInput placeholder="Email" 
+                  required
+                  type="email"/>
+                  <mat-icon matSuffix class="email-icon">email</mat-icon>
+                 </mat-form-field>
+                 <mat-error *ngIf="email.invalid && email.errors.email">
+                  Invalid email
+                 </mat-error>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="full-width">
+                  <input 
+                  name ="password" 
+                  formControlName="password"  
+                  matInput placeholder="Password" 
+                  required
+                  matInput [type]="hide ? 'password' : 'text'"/>
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                  </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="full-width">
+                  <input 
+                  name ="password" 
+                  formControlName="repeatPassword"  
+                  matInput placeholder="Confirm Password" 
+                  required
+                  matInput [type]="hide ? 'password' : 'text'"/>
+                    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                    </button>
+                  </mat-form-field>
+                 <mat-error *ngIf="repeatPassword.invalid && repeatPassword.errors.passwordMatch">
+                 Password should match
+                 </mat-error>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button 
+          (click)="register()" class="register-button">Register</button>
+          <span class="register-login-link">Already have an account ? <a [routerLink]="['/auth']" class="link">Login</a> here.</span>
+      </mat-card-actions>
+    </mat-card>
+    </body>

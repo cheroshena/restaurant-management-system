@@ -1,0 +1,67 @@
+[
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/f63835d231/cheeseburger.png",
+      "name": "KUBE BURGER",
+      "price": 15,
+      "description": "",
+      "id": 1
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/e022d53f6f/fileAsset/quarter-pound-flamethrower-grillburger.png",
+      "name": "CHEESE BURGER",
+      "price": 32,
+      "description": "",
+      "id": 2
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/d25ad34b25/DQ-Stackburger-Flamethrower-Double-US.png",
+      "name": "CHICKEN BURGER",
+      "price": 25,
+      "description": "",
+      "id": 3
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/29a79dab7d/mushroom-swiss-burger.png",
+      "name": "MASTER BURGER",
+      "price": 40,
+      "description": "",
+      "id": 4
+    },
+    {
+      "imgUrl": "https://www.transparentpng.com/thumb/hamburger/fast-food-menu-burger-picture-clipart-transparent--VBf6B2.png",
+      "name": "ALIEN BURGER",
+      "price": 50,
+      "description": "",
+      "id": 5
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/f63835d231/cheeseburger.png",
+      "name": "CHINEESE BURGER",
+      "price": 55,
+      "description": "",
+      "id": 6
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/e022d53f6f/fileAsset/quarter-pound-flamethrower-grillburger.png",
+      "name": "BUF BURGER",
+      "price": 53,
+      "description": "",
+      "id": 7
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/d25ad34b25/DQ-Stackburger-Flamethrower-Double-US.png",
+      "name": "MARTINI BURGER",
+      "price": 24,
+      "description": "",
+      "id": 8
+    },
+    {
+      "imgUrl": "https://www.dairyqueen.com/dA/29a79dab7d/mushroom-swiss-burger.png",
+      "name": "KOLINE BURGER",
+      "price": 46,
+      "description": "",
+      "id": 9
+    }
+   
+
+  ]

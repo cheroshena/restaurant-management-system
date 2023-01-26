@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@600&display=swap');
+
+.example-toolbar{
+    background-color: rgb(240, 162, 19);
+    font-family: 'Cormorant SC', serif;
+    font-size: 25px;
+    
+}
+
+a{
+    margin: 2px;
+}
+
+.active-link {
+    background-color: rgb(255, 212, 131);
+}
+
+.logo{
+
+    background-image: url('../../../assets/logo-removebg-preview.png');
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-spacer{
+    flex: 1 1 auto;
+}
+
+.mat-icon{
+    vertical-align: middle;
+    margin: 0 5px;
+
+}
+
+.logout-button{
+    background-color: rgb(255, 212, 131);
+}
+

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+.example-card {
+    max-width: 100%;
+    background-color:rgb(24, 24, 24);
+    font-family: 'Figtree', sans-serif;
+    height: 360%;
+    border-radius: 0%;
+  }
+
+  .full-width{
+    width: 100%;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+
+  .like-button{
+    background-color: rgb(61, 166, 156);
+    left: 40px;
+    border-radius: 15px;
+  }
+
+  .share-button{
+    background-color: rgb(61, 166, 156);
+    left: 55px;
+    border-radius: 15px;
+  }
+
+  .mat-table{
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .mat-cell {
+    padding: 8px 8px 8px 0;
+  }
+
+  .product-listing-image{
+    height: 20em;
+    width: 15em;
+  }
+
+  @media all and (max-width:699px){
+    .product-listing-image{
+      height: 9em;
+      width: 7em;
+    }
+  }
+
+  .mat-spinner{
+    margin: 10% auto;
+  }
+
+  .name{
+    font-size: smaller; 
+  }
+  
+  .description{
+    font-size: smaller; 
+  }
+  
+
+  .cart-button{
+    background-color: rgb(240, 162, 19);
+    margin-left: 35px;
+  }
+
+
+  mat-paginator {
+    background-color: transparent;
+  }
+
+  
+  
+  .mat-form-field-underline {
+    /*change color of underline*/
+    background-color: black !important;
+  } 
+  
+  
+  .name{
+    font-family: 'Istok Web', sans-serif;
+  }
